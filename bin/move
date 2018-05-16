@@ -7,5 +7,6 @@ puts "Where would you like to go?"
 input = gets.strip
 input_to_index(input)
 index = input.to_i - 1
-display_board = move(board, index, current_player = "X")
-
+move(board, index, current_player = "X")
+move = board
+display_board(board)
