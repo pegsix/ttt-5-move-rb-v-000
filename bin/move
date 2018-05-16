@@ -9,3 +9,4 @@ input_to_index(input)
 index = input_to_index
 Move(board, index, current_player = "X")
 display_board(board, index,current_player = "X")
+board[index] = current_player
