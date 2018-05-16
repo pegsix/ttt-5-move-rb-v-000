@@ -6,4 +6,5 @@ board = [" ", " ", " ", " ", " ", " ", " ", " ", " "]
 puts "Where would you like to go?"
 input = gets.strip
 input_to_index(input)
+input_to_index = index
 Move(board, index, current_player = "X")
